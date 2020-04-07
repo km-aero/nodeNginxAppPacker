@@ -14,3 +14,4 @@ run_list 'nodenginx::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'nodenginx', path: '.'
+cookbook 'nodejs', '~> 6.0.0', :supermarket
